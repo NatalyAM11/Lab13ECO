@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "913399630811",
+    "firebase_url": "https://lab13eco-236d9.firebaseio.com",
+    "project_id": "lab13eco-236d9",
+    "storage_bucket": "lab13eco-236d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913399630811:android:35e221ca0523b0b68f35fe",
+        "android_client_info": {
+          "package_name": "com.example.lab13eco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913399630811-p52gkj957csinebf4r90ufai3nbso3j1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeLi2jIYEXi6lGk1p84r7X_kE1ZUHoRWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913399630811-p52gkj957csinebf4r90ufai3nbso3j1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
