@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private boolean yaEsta;
     private  Usuario u;
     private String idUser;
+    private String nombre;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +49,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.bIngresar:
+
+                nombre=name.getText().toString();
+
+             //si no ingresa su nombre no lo dejo pasar
+                if(nombre.trim().isEmpty()){
+                    Toast.makeText(this, "Debe ingresar su nombre para continuar", Toast.LENGTH_LONG).show();
+                    return;
+                }
+
                 String id= db.getReference().child("users").push().getKey();
                 DatabaseReference reference=db.getReference().child("users").child(id);
 
